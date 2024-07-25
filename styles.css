@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+}
+.header{
+    background-color: lightslategray;
+}
+.hero{
+    background-color:lightslategray;
+}
+.trailer{
+    background-color:lightslategray ;
+}
+.learn{
+    background-color: lightslategray;
+}
+.footer{
+    background-color: lightslategray;
+}
