@@ -131,13 +131,12 @@ img {
   width: 376px;
   padding-bottom: 42px;
 }
-.hero-list {
-  display: flex;
-}
+
 .hero-ikon {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: flex-end;
 }
 .storm {
   padding-top: 75px;
@@ -320,6 +319,7 @@ img {
   padding-left: 80px;
   padding-bottom: 16px;
   padding-top: 80px;
+  gap: 20px;
 }
 .email-text {
   color: #fff;
@@ -345,6 +345,7 @@ img {
 .cooemail{
     display: flex;
     padding-left: 80px;
+    gap: 20px;
 }
 .cooemail-text {
   color: #fff;
