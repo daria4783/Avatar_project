@@ -102,7 +102,6 @@ img {
   font-weight: 400;
   line-height: 1.2;
   width: 298px;
-  margin-bottom: 42px;
 }
 .hero-btn {
   width: 260px;
@@ -130,7 +129,7 @@ img {
   font-weight: 400;
   line-height: 1.2;
   width: 376px;
-  padding-bottom: 42px;
+  margin-bottom: 42px;
 }
 
 .hero-ikon {
@@ -161,7 +160,7 @@ img {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .storm-img {
   margin-left: auto;
@@ -209,7 +208,7 @@ img {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .energie-img {
   margin-left: auto;
@@ -282,8 +281,9 @@ img {
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 10px;
-  margin-right: auto;
+  width: 879px;
   margin-left: auto;
+  margin-right: auto;
 }
 .protect-autor {
   color: #000;
@@ -299,22 +299,27 @@ img {
 }
 .footer {
   background: rgba(43, 74, 97, 0.87);
-  padding-top: 76px;
-  padding-bottom: 76px;
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
-.footer-logo{
-    border-right: 2px solid var(--header-text);
-    padding-right: 80px;
+.footer-logo {
+  padding-right: 80px;
+}
+.border-item {
+  width: 2px;
+  height: 153px;
+  background-color: var(--header-text);
 }
 .footer-box {
   display: flex;
   align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .email {
   display: flex;
   padding-left: 80px;
-  padding-bottom: 16px;
-  padding-top: 80px;
+  margin-bottom: 16px;
   gap: 20px;
 }
 .email-text {
@@ -338,10 +343,10 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.cooemail{
-    display: flex;
-    padding-left: 80px;
-    gap: 20px;
+.cooemail {
+  display: flex;
+  padding-left: 80px;
+  gap: 20px;
 }
 .cooemail-text {
   color: #fff;
@@ -353,8 +358,8 @@ img {
   line-height: normal;
 }
 .cooemail-shtrich {
-    color: var(--header-text);
-    padding-bottom: 37px;
+  color: var(--header-text);
+  margin-bottom: 37px;
 }
 .cooemail-link {
   color: #fff;
@@ -365,13 +370,14 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.footer-quotation{
- color: #FFF;
-text-align: justify;
-font-family: "Inter", sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-left: 210px;
+.footer-quotation {
+  color: #fff;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 210px;
+  margin-top: 47px;
 }
