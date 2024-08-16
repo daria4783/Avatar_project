@@ -242,6 +242,7 @@ img {
   align-items: center;
   padding-bottom: 45px;
   padding-top: 36px;
+  flex-shrink: calc((100% / 72px) / 3);
 }
 .learn-text {
   color: #141414;
