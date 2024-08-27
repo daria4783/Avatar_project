@@ -34,7 +34,10 @@ img {
   padding: 0 15px;
 }
 .header {
-  background-color: var(--header-background);
+  background-image: linear-gradient( rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),url(../imeges/backg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   border-bottom: 3px solid var(--header-text);
   padding-top: 39px;
@@ -216,7 +219,7 @@ img {
 }
 .learn {
   background-color: lightslategray;
-  background: url(./imeges/learnbcg.jpg) lightgray 50% / cover no-repeat;
+  background: url(../imeges/learnbcg.jpg) lightgray 50% / cover no-repeat;
   padding-top: 58px;
   padding-bottom: 58px;
   text-align: center;
@@ -299,13 +302,14 @@ img {
   margin-right: auto;
 }
 .footer {
-  background: rgba(43, 74, 97, 0.87);
+  background-image: linear-gradient( rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)),url(../imeges/backg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding-bottom: 35px;
   padding-top: 35px;
 }
-.footer-logo {
-  padding-right: 80px;
-}
+
 .border-item {
   width: 2px;
   height: 153px;
@@ -314,12 +318,10 @@ img {
 .footer-box {
   display: flex;
   align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  gap: 80px;
 }
 .email {
   display: flex;
-  padding-left: 80px;
   margin-bottom: 16px;
   gap: 20px;
 }
@@ -346,7 +348,6 @@ img {
 }
 .cooemail {
   display: flex;
-  padding-left: 80px;
   gap: 20px;
 }
 .cooemail-text {
